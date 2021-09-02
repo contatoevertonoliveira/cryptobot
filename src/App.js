@@ -107,7 +107,7 @@ function App() {
 
   return (
     <div id="container">
-      <h2>SniperBot 1.0</h2>
+      <h2>everBot 1.0</h2>
       <div className="tradingview-widget-container">
         <div id="tradingview_63f64"></div>
       </div>
@@ -129,9 +129,9 @@ function App() {
         </div>
 
         <div>
-          <b>Profit:</b><br />
-          Profit: <span style={{color:"greenyellow", fontWeight:'bold'}}>$ {profit && profit.value.toFixed(2)}</span><br />
-          Profit %: {profit && profit.perc.toFixed(2)}<br />
+          <b>Lucro:</b><br />
+          Lucro: <span style={{color:"greenyellow", fontWeight:'bold'}}>$ {profit && profit.value.toFixed(2)}</span><br />
+          Lucro %: {profit && profit.perc.toFixed(2)}<br />
         </div>
 
       <div>

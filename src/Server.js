@@ -2,8 +2,8 @@ const axios = require('axios');
 const querystring = require('querystring');
 const crypto = require('crypto');
 
-const API_KEY = '6RhTX6kOf0uSIgAhspHFdGL9OvHX9Pu7g1mdBSds9t5vcUis4T5QVl87H1aAy2DF';
-const API_SECRET = 'BzfNjeBbqBnZKTLLsqG7GUzJG9mJmOnFEa9HDOUl7U5pcnngwiWpFGznGxAzSuFc';
+const API_KEY = 'API-KEY';
+const API_SECRET = 'API-SECRET';
 
 const app = require('express')();
 
